@@ -1,0 +1,27 @@
+html {
+  /* No tiene soporte en Edge ni Safari */
+  scroll-behavior: smooth;
+}
+
+section {
+	height: 100vh;
+	padding-top: 9vh;
+}
+
+#imgSM {
+	height: 64vh;
+}
+#Testimonials img {
+	height: 20vh;
+}
+
+#Contact {
+	position: relative;
+	height: 85vh;
+}
+#divSocialNetworks {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
