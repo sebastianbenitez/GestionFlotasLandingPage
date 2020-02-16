@@ -1,11 +1,13 @@
-html {
-  /* No tiene soporte en Edge ni Safari */
+/*html {
+  /* No tiene soporte en Edge ni Safari 
   scroll-behavior: smooth;
-}
+}*/
 
 section {
-	height: 100vh;
-	padding-top: 9vh;
+	padding-top: 2.625rem;/* sumatoria de padding + content del navbar */
+}
+footer {
+	padding-top: 2.625rem;
 }
 
 #imgSM {
@@ -13,15 +15,4 @@ section {
 }
 #Testimonials img {
 	height: 20vh;
-}
-
-#Contact {
-	position: relative;
-	height: 85vh;
-}
-#divSocialNetworks {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
 }
